@@ -1,0 +1,31 @@
+package RevisaoED;
+import java.util.Arrays;
+
+public class Vetor {
+	private String[] elementos;
+	private int tamanho;
+	public Vetor(int capacidade) {
+		this.elementos = new String[capacidade];
+		this.tamanho = 0;
+	}
+	
+	public void adicionar(String elemento) throws Exception {
+		if(this.tamanho < this.elementos.length) {
+			this.elementos[this.tamanho] = elemento;
+			this.tamanho++;
+		}
+		else {
+			throw new Exception("O vetor está cheio. " + 
+								"Não é possível adicionar novos elementos");
+		}
+	}
+	
+	public int tamanho() {
+		return this.tamanho;
+	}
+	
+	public String toString() {
+		return Arrays.toString(elementos);
+	}
+}
+
