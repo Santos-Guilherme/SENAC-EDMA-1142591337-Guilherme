@@ -15,8 +15,6 @@ public class TesteArray {
 		
 		System.out.println(arrayList);
 		
-		//Teste de buscas
-		
 		boolean existe = arrayList.contains("Elemento C");
 		if(existe) {
 			System.out.println("Elementos encontrado no Vetor");
@@ -32,14 +30,5 @@ public class TesteArray {
 		else {
 			System.out.println("Elementos não existe no vetor");
 		}
-		
-		System.out.println(arrayList.get(1));
-		
-		//Removendo os itens A e B
-		
-		arrayList.remove(0);
-		arrayList.remove("Elemento C");
-		System.out.println(arrayList);
-		
 	}
 }
