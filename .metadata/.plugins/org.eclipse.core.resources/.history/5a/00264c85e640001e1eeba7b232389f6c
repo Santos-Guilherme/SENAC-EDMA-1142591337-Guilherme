@@ -28,10 +28,10 @@ public class Executor {
 		
 		int indiceBuscado = vetor.buscaN(JOptionPane.showInputDialog("Digite o elemento que está buscando:"));
 		System.out.println(indiceBuscado);
-		*/
+		
 		
 		vetor.remove(Integer.parseInt(JOptionPane.showInputDialog("Digite o indice do elemento que deseha remover:")));
-		
+		*/
 		
 		System.out.println("O tamanho do vetor é "+ vetor.tamanho());
 		System.out.println(vetor.toString());

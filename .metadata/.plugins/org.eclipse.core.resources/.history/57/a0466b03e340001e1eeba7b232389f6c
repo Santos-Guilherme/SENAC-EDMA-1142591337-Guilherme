@@ -1,0 +1,23 @@
+package RevisaoED;
+
+public class Executor {
+	public static void main(String []args) {
+		Vetor vetor = new Vetor(5);
+		
+		try {
+		vetor.adicionar("elemento 1");
+		vetor.adicionar("elemento 2");
+		vetor.adicionar("elemento 3");
+		vetor.adicionar("elemento 4");
+		vetor.adicionar("elemento 5");
+		}
+		
+		catch (Exception e){
+			e.printStackTrace();
+		}
+		
+		System.out.println("O tamanho do vetor é "+ vetor.tamanho());
+		
+		System.out.println(vetor.toString());
+	}
+}

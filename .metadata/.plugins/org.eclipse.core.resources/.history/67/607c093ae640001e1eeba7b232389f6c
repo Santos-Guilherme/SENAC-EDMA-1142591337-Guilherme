@@ -21,23 +21,14 @@ public class Executor {
 		
 		System.out.println(vetor.toString());
 		
-		/*
 		String elementoBuscado = vetor.busca(Integer.parseInt(JOptionPane.showInputDialog("Digite o indice que deseja buscar:")));
 		System.out.println(elementoBuscado);
 		
 		
 		int indiceBuscado = vetor.buscaN(JOptionPane.showInputDialog("Digite o elemento que está buscando:"));
 		System.out.println(indiceBuscado);
-		*/
 		
 		vetor.remove(Integer.parseInt(JOptionPane.showInputDialog("Digite o indice do elemento que deseha remover:")));
-		
-		
-		System.out.println("O tamanho do vetor é "+ vetor.tamanho());
-		System.out.println(vetor.toString());
-		
-		String elementoBuscado = vetor.busca(Integer.parseInt(JOptionPane.showInputDialog("Digite o indice que deseja buscar:")));
-		System.out.println(elementoBuscado);
 		
 		System.out.println(vetor.toString());
 		}
