@@ -1,10 +1,10 @@
 package RevisaoED;
 
-public class Vetor {
-	private String[] elementos;
+public class VetorObjeto{
+	private Object[] elementos;
 	private int tamanho;
 
-	public Vetor(int capacidade) {
+	public VetorObjeto(int capacidade) {
 		this.elementos = new String[capacidade];
 		this.tamanho = 0;
 	}
@@ -95,7 +95,7 @@ public class Vetor {
 			this.tamanho--;
 		}
 		else {
-			throw new Exception("Posicação Inválida");
+			throw new Exception("Posição Inválida");
 		}
 	}
 }

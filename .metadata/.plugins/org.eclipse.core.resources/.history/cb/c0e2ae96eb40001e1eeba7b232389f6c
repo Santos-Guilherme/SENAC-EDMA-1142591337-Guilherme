@@ -95,7 +95,7 @@ public class Vetor {
 			this.tamanho--;
 		}
 		else {
-			throw new Exception("Posicação Inválida");
+			throw new Exception("Posição Inválida");
 		}
 	}
 }
