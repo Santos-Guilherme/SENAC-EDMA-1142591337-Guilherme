@@ -40,5 +40,6 @@ public class TesteArray {
 		arrayList.remove(0);
 		arrayList.remove("Elemento C");
 		System.out.println(arrayList);
+		
 	}
 }
