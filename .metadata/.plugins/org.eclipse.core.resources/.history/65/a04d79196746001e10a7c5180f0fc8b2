@@ -1,0 +1,10 @@
+package estruturaestatica;
+
+public class Lista<T> extends EstrturaEstatica<T> {
+	public Lista(int capacidade) {
+		super(capacidade);
+	}
+	public Lista() {
+		super();
+	}
+}

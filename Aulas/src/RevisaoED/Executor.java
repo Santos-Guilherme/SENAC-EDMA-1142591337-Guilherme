@@ -1,7 +1,5 @@
 package RevisaoED;
 
-import javax.swing.JOptionPane;
-
 public class Executor {
 	public static void main(String []args) {
 		VetorObjeto vetor = new VetorObjeto(5);
@@ -13,7 +11,7 @@ public class Executor {
 		try {
 		
 		vetor.adicionar(c1);
-		vetor.adicionar(c1);
+		vetor.adicionar(c2);
 		vetor.adicionar(c3);
 		}
 		
